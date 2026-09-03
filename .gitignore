@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+data/raw/
+
+# python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# trained models / large artifacts
+trained_model/*.pkl
+*.pkl
+
+# macOS
+.DS_Store
+
+# environments
+venv/
+.env
