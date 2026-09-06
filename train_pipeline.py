@@ -17,7 +17,7 @@ def run_training():
     train, test = add_features(train, test)
  
     # 4. Split features/target
-    x = train.drop(columns=["Will_Buy_EV"])
+    x = train.drop(columns=["Will_Buy_EV", "id"])
     y = train["Will_Buy_EV"]
  
     x_train, x_val, y_train, y_val = train_test_split(
